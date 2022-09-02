@@ -3,6 +3,9 @@ require("dotenv").config();
 module.exports = {
   solidity: "0.8.4",
   networks: {
+    dashboard:{
+      url:"http://localhost:24012/rpc"
+    },
     hardhat: {
       chainId: 1337,
     },
